@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/notepad" >
+    
+    <com.google.ads.AdView 
+    	android:id="@+id/adView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        ads:adUnitId="a151a5ce8f21ff2"
+        ads:adSize="SMART_BANNER"
+        ads:loadAdOnCreate="true" />
+    
+    <Button
+        android:id="@+id/saveAllBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toLeftOf="@+id/deleteAllBtn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/save_all"
+        android:layout_below="@+id/adView" />
+    
+    <Button
+        android:id="@+id/deleteAllBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_toLeftOf="@+id/homeBtn"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:onClick="deleteAllProducts"
+        android:background="@drawable/delete_all"
+        android:layout_below="@+id/adView" />
+    
+    <Button
+        android:id="@+id/homeBtn"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/home"
+        android:layout_below="@+id/adView" />
+    
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:textSize="14sp"
+        android:textStyle="italic"
+        android:gravity="center"
+        android:text="@string/prices"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@+id/homeBtn" />
+    
+    <GridView
+    	android:id="@+id/gridView1"
+    	android:numColumns="1"
+    	android:gravity="center"
+    	android:stretchMode="columnWidth"
+    	android:layout_width="wrap_content"
+    	android:layout_height="match_parent"
+    	android:layout_below="@+id/text" >
+	</GridView>
+
+</RelativeLayout>

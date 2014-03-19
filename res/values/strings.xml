@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Καλάθι Νοικοκυράς</string>
+    <string name="title_activity_main">Καλάθι Νοικοκυράς</string>
+    <string name="title_activity_add_categories">Επιλέξτε κατηγορία προϊόντων</string>
+    <string name="title_activity_add_products">Επιλέξτε προϊόν</string>
+    <string name="title_activity_view_products">Καλάθι με τα προϊόντα σας</string>
+    <string name="title_activity_get_minimum_prices_of_product">Οι πιο φθηνές τιμές για το προϊόν</string>
+    <string name="title_activity_about">Σχετικά με την εφαρμογή</string>
+    <string name="title">To καλάθι της νοικοκυράς \n Δήμος Θεσσαλονίκης</string>
+    <string name="add_products">Προσθέστε προϊόντα στο καλάθι</string>
+    <string name="view_products">Δείτε τα προϊόντα στο καλάθι σας</string>
+    <string name="about">Σχετικά με την εφαρμογή</string>
+    <string name="proceed">Επόμενο βήμα</string>
+    <string name="add_product">Παρακαλώ επιλέξτε ένα προϊόν από τη λίστα και πατήστε το κουμπί για να το προσθέσετε στο καλάθι</string>
+    <string name="filter_text">Εισάγετε λέξεις για λιγότερα αποτελέσματα</string>
+    <string name="filter_text_capital">Εισάγετε λέξεις στα ΚΕΦΑΛΑΙΑ για λιγότερα αποτελέσματα</string>
+    <string name="source">Πηγή δεδομένων: Υπουργείο Ανάπτυξης</string>
+    <string name="prices">Παρακαλώ πατήστε πάνω στο προϊόν για να δείτε που πωλείται πιο φθηνά στην περιοχή σας</string>
+    <string name="filter">Εισάγετε χαρακτήρες</string>
+    <string name="exit">Έξοδος</string>
+
+    <style name="ButtonText">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_margin">3dp</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:shadowColor">#000000</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
+    </style>
+
+</resources>
